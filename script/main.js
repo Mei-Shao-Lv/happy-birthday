@@ -58,46 +58,46 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
-      opacity: 0,
-      y: 10
-    })
-    .from(".two", 0.4, {
-      opacity: 0,
-      y: 10
-    })
-    .to(
-      ".one",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2.5"
-    )
-    .to(
-      ".two",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "-=1"
-    )
-    .from(".three", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
+//     .from(".one", 0.7, {
+//       opacity: 0,
+//       y: 10
+//     })
+//     .from(".two", 0.4, {
+//       opacity: 0,
+//       y: 10
+//     })
+//     .to(
+//       ".one",
+//       0.7,
+//       {
+//         opacity: 0,
+//         y: 10
+//       },
+//       "+=2.5"
+//     )
+//     .to(
+//       ".two",
+//       0.7,
+//       {
+//         opacity: 0,
+//         y: 10
+//       },
+//       "-=1"
+//     )
+//     .from(".three", 0.7, {
+//       opacity: 0,
+//       y: 10
+//       // scale: 0.7
+//     })
+//     .to(
+//       ".three",
+//       0.7,
+//       {
+//         opacity: 0,
+//         y: 10
+//       },
+//       "+=2"
+//     )
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
@@ -139,39 +139,39 @@ const animationTimeline = () => {
       color: "#fff"
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(
-      ".idea-5",
-      0.7,
-      {
-        rotationX: 15,
-        rotationZ: -10,
-        skewY: "-5deg",
-        y: 50,
-        z: 10,
-        opacity: 0
-      },
-      "+=0.5"
-    )
-    .to(
-      ".idea-5 .smiley",
-      0.7,
-      {
-        rotation: 90,
-        x: 8
-      },
-      "+=0.4"
-    )
-    .to(
-      ".idea-5",
-      0.7,
-      {
-        scale: 0.2,
-        opacity: 0
-      },
-      "+=2"
-    )
+//     .from(".idea-4", 0.7, ideaTextTrans)
+//     .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+//     .from(
+//       ".idea-5",
+//       0.7,
+//       {
+//         rotationX: 15,
+//         rotationZ: -10,
+//         skewY: "-5deg",
+//         y: 50,
+//         z: 10,
+//         opacity: 0
+//       },
+//       "+=0.5"
+//     )
+//     .to(
+//       ".idea-5 .smiley",
+//       0.7,
+//       {
+//         rotation: 90,
+//         x: 8
+//       },
+//       "+=0.4"
+//     )
+//     .to(
+//       ".idea-5",
+//       0.7,
+//       {
+//         scale: 0.2,
+//         opacity: 0
+//       },
+//       "+=2"
+//     )
     .staggerFrom(
       ".idea-6 span",
       0.8,
@@ -282,15 +282,15 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1"
     })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-    .to(
-      ".last-smile",
-      0.5,
-      {
-        rotation: 90
-      },
-      "+=1"
-    );
+//     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+//     .to(
+//       ".last-smile",
+//       0.5,
+//       {
+//         rotation: 90
+//       },
+//       "+=1"
+//     );
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
