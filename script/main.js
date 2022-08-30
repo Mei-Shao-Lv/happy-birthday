@@ -11,6 +11,7 @@ const fetchData = () => {
               .querySelector(`[data-node-name*="${customData}"]`)
               .setAttribute("src", data[customData]);
           } else {
+            console.log("")
             document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
           }
         }
